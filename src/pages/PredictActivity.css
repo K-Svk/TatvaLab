@@ -1,0 +1,305 @@
+
+.tatva-predict {
+  width: 100%;
+  color: #173d2d;
+}
+
+.tatva-predict-heading {
+  margin-bottom: 30px;
+}
+
+.tatva-eyebrow,
+.tatva-step-label {
+  display: inline-block;
+  color: #668873;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.tatva-predict-heading h2 {
+  color: #173d2d;
+  font-size: 27px;
+  font-weight: 700;
+  margin: 0 0 9px;
+}
+
+.tatva-predict-heading p {
+  color: #718078;
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 620px;
+}
+
+.tatva-predict-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+.tatva-predict-form,
+.tatva-predict-info,
+.tatva-result-card {
+  background: #ffffff;
+  border: 1px solid #e5ebe5;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 20px rgba(23, 61, 45, 0.035);
+}
+
+.tatva-form-header,
+.tatva-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.tatva-form-header h3,
+.tatva-predict-info h3,
+.tatva-result-header h3 {
+  color: #173d2d;
+  font-size: 19px;
+  margin: 0 0 7px;
+}
+
+.tatva-form-header p,
+.tatva-predict-info > p {
+  color: #849087;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.tatva-form-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #edf4ee;
+  color: #316d49;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+.tatva-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 21px;
+}
+
+.tatva-field-group label {
+  color: #294638;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.tatva-field-group input {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 45px;
+  padding: 0 13px;
+  border: 1px solid #dfe7df;
+  border-radius: 8px;
+  background: #fbfcfa;
+  color: #173d2d;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.tatva-field-group input:focus {
+  border-color: #6d9979;
+  box-shadow: 0 0 0 3px rgba(109, 153, 121, 0.12);
+}
+
+.tatva-field-group input::placeholder {
+  color: #a5aea6;
+}
+
+.tatva-field-hint {
+  color: #929c93;
+  font-size: 10px;
+}
+
+.tatva-predict-button,
+.tatva-save-button {
+  min-height: 43px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 8px;
+  background: #205239;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.tatva-predict-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.tatva-predict-button:hover,
+.tatva-save-button:hover {
+  background: #173d2d;
+  transform: translateY(-1px);
+}
+
+.tatva-predict-button span {
+  font-size: 18px;
+}
+
+.tatva-form-footnote {
+  margin: 15px 0 0;
+  color: #9aa39b;
+  font-size: 10px;
+}
+
+.tatva-predict-info {
+  background: #f4f7f2;
+  border-color: #e8eee6;
+}
+
+.tatva-predict-info h3 {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.tatva-predict-info > p {
+  max-width: 340px;
+}
+
+.tatva-process-list {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tatva-process-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 15px 0;
+  border-top: 1px solid #e1e9df;
+}
+
+.tatva-process-item > span {
+  color: #72927a;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.tatva-process-item strong {
+  display: block;
+  color: #294638;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.tatva-process-item p {
+  color: #849087;
+  font-size: 11px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.tatva-result-card {
+  margin-top: 23px;
+}
+
+.tatva-demo-badge {
+  background: #edf4ee;
+  color: #477453;
+  padding: 7px 10px;
+  border-radius: 20px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+.tatva-result-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.tatva-result-details > div {
+  background: #f7f9f6;
+  padding: 15px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.tatva-result-details span {
+  color: #829087;
+  font-size: 10px;
+}
+
+.tatva-result-details strong {
+  color: #234b35;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.tatva-result-disclaimer {
+  margin: 18px 0;
+  padding: 12px 14px;
+  border-left: 3px solid #91ad91;
+  background: #f4f7f2;
+  color: #718078;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.tatva-form-message {
+  font-size: 11px;
+  margin: 0 0 12px;
+}
+
+.tatva-form-message.error {
+  color: #b44c4c;
+}
+
+.tatva-success-message {
+  color: #39734b;
+  font-size: 11px;
+  margin: 12px 0 0;
+}
+
+@media (max-width: 760px) {
+  .tatva-predict-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .tatva-predict-form,
+  .tatva-predict-info,
+  .tatva-result-card {
+    padding: 19px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tatva-result-details {
+    grid-template-columns: 1fr;
+  }
+
+  .tatva-predict-heading h2 {
+    font-size: 23px;
+  }
+}
