@@ -1,0 +1,307 @@
+
+.tatva-performance {
+  width: 100%;
+  color: #173d2d;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.tatva-performance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.tatva-performance-eyebrow {
+  display: inline-block;
+  color: #668873;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 9px;
+}
+
+.tatva-performance-header h2 {
+  color: #173d2d;
+  font-size: 27px;
+  margin: 0 0 8px;
+}
+
+.tatva-performance-header p {
+  color: #78857c;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.tatva-performance-tag {
+  flex-shrink: 0;
+  padding: 8px 12px;
+  background: #edf4ee;
+  color: #477453;
+  border-radius: 20px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.tatva-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.tatva-metric-card {
+  min-width: 0;
+  background: #ffffff;
+  border: 1px solid #e6ece5;
+  border-radius: 13px;
+  padding: 19px;
+  box-shadow: 0 5px 18px rgba(23, 61, 45, 0.035);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tatva-metric-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(23, 61, 45, 0.07);
+}
+
+.tatva-metric-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.tatva-metric-top > span:first-child {
+  color: #748379;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.tatva-metric-indicator {
+  color: #9bad9e;
+  font-size: 9px;
+  font-weight: 650;
+}
+
+.tatva-metric-value {
+  display: block;
+  color: #173d2d;
+  font-size: clamp(25px, 3vw, 33px);
+  font-weight: 750;
+  letter-spacing: -1px;
+  margin-bottom: 17px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tatva-metric-progress {
+  height: 5px;
+  width: 100%;
+  border-radius: 10px;
+  background: #eaf0e9;
+  overflow: hidden;
+  margin-bottom: 11px;
+}
+
+.tatva-metric-progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #568666;
+  transition: width 0.5s ease;
+}
+
+.tatva-metric-caption {
+  display: block;
+  color: #9aa59b;
+  font-size: 9px;
+}
+
+.tatva-performance-overview,
+.tatva-metric-explanation {
+  background: #ffffff;
+  border: 1px solid #e6ece5;
+  border-radius: 14px;
+  padding: 23px;
+  box-shadow: 0 5px 18px rgba(23, 61, 45, 0.025);
+}
+
+.tatva-overview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 17px;
+}
+
+.tatva-overview-header h3,
+.tatva-metric-explanation h3 {
+  color: #234b35;
+  font-size: 18px;
+  margin: 0 0 7px;
+}
+
+.tatva-overview-header p {
+  color: #849087;
+  font-size: 11px;
+  margin: 0;
+}
+
+.tatva-overview-icon {
+  width: 39px;
+  height: 39px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #edf4ee;
+  color: #477453;
+  font-size: 23px;
+}
+
+.tatva-configuration-list {
+  border-top: 1px solid #edf0eb;
+}
+
+.tatva-configuration-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 15px 3px;
+  border-bottom: 1px solid #edf0eb;
+}
+
+.tatva-configuration-row:last-child {
+  border-bottom: none;
+}
+
+.tatva-configuration-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tatva-config-label {
+  color: #455c4b;
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.tatva-config-description {
+  color: #9aa49b;
+  font-size: 10px;
+}
+
+.tatva-configuration-row > strong {
+  color: #294b36;
+  font-size: 11px;
+  font-weight: 650;
+  text-align: right;
+}
+
+.tatva-connection-status {
+  color: #8c7750;
+  background: #f7f3e9;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 9px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.tatva-metric-explanation {
+  background: #f5f8f3;
+  border-color: #e9efe6;
+}
+
+.tatva-metric-explanation h3 {
+  margin-bottom: 21px;
+}
+
+.tatva-explanation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.tatva-explanation-grid > div {
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #e8eee6;
+  border-radius: 9px;
+}
+
+.tatva-explanation-grid strong {
+  color: #315b3e;
+  font-size: 12px;
+}
+
+.tatva-explanation-grid p {
+  color: #7e8a80;
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 7px 0 0;
+}
+
+.tatva-performance-disclaimer {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 14px 16px;
+  border: 1px solid #e7ece4;
+  border-radius: 9px;
+  background: #fafbf8;
+}
+
+.tatva-performance-disclaimer > span {
+  color: #6d9173;
+  font-size: 15px;
+}
+
+.tatva-performance-disclaimer p {
+  color: #849087;
+  font-size: 10px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .tatva-metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 550px) {
+  .tatva-performance-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .tatva-performance-header h2 {
+    font-size: 23px;
+  }
+
+  .tatva-explanation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tatva-performance-overview,
+  .tatva-metric-explanation {
+    padding: 17px;
+  }
+
+  .tatva-configuration-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .tatva-configuration-row > strong {
+    text-align: left;
+  }
+}
